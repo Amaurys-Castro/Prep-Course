@@ -9,7 +9,7 @@ function crearGato (nombre, edad) {
   var obj = {
     nombre: nombre,
     edad: edad,
-    Meow: function() {
+    meow: function() {
       return "Meow!";
     }
   };
@@ -109,7 +109,7 @@ function agregarAmigo (usuario, nuevoAmigo) {
   // Agrega "nuevoAmigo" al final de ese array
   // Devuelve el objeto "usuario"
   // Tu código:
-  usuario.amigo.push(nuevoAmigo);
+  usuario.amigos.push(nuevoAmigo);
   
   return usuario;
 }
