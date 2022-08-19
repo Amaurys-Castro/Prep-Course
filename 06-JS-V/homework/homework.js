@@ -17,8 +17,7 @@ function crearUsuario() {
 Usuario.prototype.saludar = function() {
   return "Hola, mi nombre es " + this.nombre;
 };
-  
-  return usuario;
+  return Usuario;
   
 }
 
