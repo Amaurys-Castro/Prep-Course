@@ -62,4 +62,5 @@ text-align: center;
 }
 #elementoCuatro {
     align-self: flex-end;
+    justify-self: start;
 }
